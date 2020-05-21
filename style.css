@@ -6,6 +6,7 @@
 
 body {
   height: 100vh;
+  background-color: white
   font-family: "Poppins", sans-serif;
 }
 a,
@@ -57,6 +58,7 @@ button {
 
 .projects li:hover,
 .products li:hover {
+  background-color: white
 }
 
 .projects a,
@@ -81,3 +83,4 @@ button {
   pointer-events: all;
   transform: translateY(0px);
 }
+
