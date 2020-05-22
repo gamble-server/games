@@ -16,6 +16,7 @@ button {
 
 .dropdown {
   height: 10vh;
+  background:white;
   width: 60%;
   margin: auto;
   display: flex;
