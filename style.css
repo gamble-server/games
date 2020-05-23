@@ -32,7 +32,7 @@ ul li a{
   width: 100%;
   line-height: 70px;
   font-size: 20px;
-  color: cyan;
+  color: black;
   padding-left: 10%;
   background: #FF8000;
   border-top: 1px solid rgba(255,255,255,.1);
@@ -43,7 +43,7 @@ li a.contact{
   border-bottom: 1px solid rgba(0,0,0,.5);
 }
 .active a{
-  color: #B93632;
+  color: #000000;
   border-left: 5px solid #B93632;
   background: #FF8000;
 }
