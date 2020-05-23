@@ -68,26 +68,48 @@ Scrap Mechanic Is A Cool Game Because You Can Build Car's And Build Plane's.</p>
       h3 {text-align:center}
 </style>
 
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-
-    scale=1.0">
+    <title>Animated Menu button with list</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   </head>
- <body>
-   <nav>
-     <label class="logo">GambleServer</label>
-     <ul>
-       <li><a href="#">Login</a></li>
-       <li><a href="#">Youtube</a></li> 
-       <li><a href="#">Game's</a></li>
-       <li><a href="#">Email</a></li>
-     </ul>
-   </nav>
-  
-      
-  </body>               
+  <body>
+    <div class="menu-container">
+      <div class="button">
+Menu
+        <span class="fas fa-bars"></span>
+      </div>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Blogs</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">Feedback</a></li>
+</ul>
+</div>
+<script>
+      $(document).ready(function(){
+        $('.button').click(function(){
+          if($(this).hasClass('expand')){
+            $('ul').slideUp(function(){
+              $('.button').removeClass('expand');
+              $('.fas').removeClass('expand')
+            });
+          }else{
+            $(this).addClass('expand');
+            setTimeout(function(){
+              $('.fas').addClass('expand');
+              $('ul').stop().slideDown();
+            },200);
+          }
+        });
+      });
+    </script>
+
+  </body>
 </html>                        
                                                  
         
