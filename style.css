@@ -6,7 +6,7 @@
   font-family: "Open Sans", sans-serif;
 }
 .menu-container{
-  position: absolute;
+  position: left;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -45,7 +45,7 @@ ul{
   width: 100%;
   text-align: center;
   border-radius: 5px;
-  display: left;
+  display: none;
   box-shadow: 0 3px 6px rgba(0,0,0,0.3);
 }
 ul:before{
