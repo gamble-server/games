@@ -7,13 +7,13 @@
 }
 .menu-container{
   position: absolute;
-  top: 10%;
-  left: 10%;
+  top: 20%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 300px;
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
 }
 .button{
   position: relative;
@@ -45,7 +45,7 @@ ul{
   width: 100%;
   text-align: center;
   border-radius: 5px;
-  display: none;
+  display: left;
   box-shadow: 0 3px 6px rgba(0,0,0,0.3);
 }
 ul:before{
